@@ -36,7 +36,8 @@ of the configuration are managed as code with the
 |---|---|
 | [**oro**](https://github.com/OpenRobOps/oro) | **The OpenRobOps platform** — web app, ingest service, MQTT broker and configuration tooling. Start here. |
 | [oro-cli](https://github.com/OpenRobOps/oro-cli) | The `oro` command line tool: configuration as code (apply, diff, list, delete) and fleet queries against one or more ORO instances. `pipx install oro-cli`. |
-| [iso21423](https://github.com/OpenRobOps/iso21423) | ISO 21423 (mobile robot interoperability) SDKs and reference material, including the `@openrobops/iso21423` TypeScript SDK. |
+| [iso21423](https://github.com/OpenRobOps/iso21423) | ISO 21423 (mobile robot interoperability) SDKs and reference material, including the `@openrobops/iso21423` TypeScript SDK and the `iso21423` Python library. |
+| [iso21423_ros](https://github.com/OpenRobOps/iso21423_ros) | ROS 2 ↔ ISO 21423 connector: connects any ROS 2 robot to OpenRobOps or any other ISO 21423 fleet manager. Configuration only for Nav2 robots, Python hooks for everything else. |
 | [sim-flatland](https://github.com/OpenRobOps/sim-flatland) | Lightweight 2D ROS 2 / Nav2 simulated robot for developing and testing against ORO without hardware. |
 | [openrmf-oro-adapter](https://github.com/OpenRobOps/openrmf-oro-adapter) | Open RMF fleet adapter for OpenRobOps. |
 | [openrmf-oro-demo](https://github.com/OpenRobOps/openrmf-oro-demo) | Demo of OpenRobOps with the Open RMF adapter. |
